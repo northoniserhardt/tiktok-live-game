@@ -1,0 +1,18 @@
+{
+  "name": "ttk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "tiktok-api": "^0.4.1",
+    "tiktok-live-connector": "^1.0.3",
+    "ws": "^8.13.0"
+  }
+}

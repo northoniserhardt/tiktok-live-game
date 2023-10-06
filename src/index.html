@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tug of War</title>
+  <style>
+    /* Apply a CSS reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url('/src/assets/background.png');
+      background-size: cover !important;
+      background-repeat: no-repeat;
+    }
+
+    .competitors {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 57%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+
+    .pool {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 57%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .blueCheer {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      right: 0%;
+      bottom: -1%;
+      z-index: 1;
+    }
+
+    .redCheer {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      left: 0%;
+      bottom: -1%;
+      z-index: 1;
+    }
+
+    .blueWInBox {
+      position: absolute;
+      top: 12%;
+      height: 10%;
+      width: 10%;
+      left: 45%;
+      background-color: blue;
+      z-index: 1;
+      visibility: hidden;
+    }
+
+    .redWInBox {
+      position: absolute;
+      bottom: 0;
+      height: 10%;
+      width: 10%;
+      left: 45%;
+      background-color: red;
+      z-index: 1;
+      visibility: hidden;
+    }
+
+  </style>
+  <script src="/game.js"></script>
+</head>
+<body>
+  <div class="competitors" id="competitors">
+    <img src="/src/assets/competitors.png" alt="" height="430" width="50">
+  </div>
+
+  <div class="pool" id="pool">
+    <img src="/src/assets/pool.gif" alt="" height="130" width="100">
+  </div>
+
+  <div class="blueCheer" id="blueCheer">
+    <img src="/src/assets/blueCompetitor/blueCheer.gif" alt="" width="90" height="810">
+  </div>
+
+  <div class="redCheer" id="redCheer">
+    <img src="/src/assets/redCompetitor/redCheer.gif" alt="" width="90" height="810">
+  </div>
+
+  <div class="blueWInBox" id="blueWInBox"></div>
+  <div class="redWInBox" id="redWInBox"></div>
+</body>
+</html>
