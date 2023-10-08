@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const redCheer = document.getElementById('redCheer');
     const blueCheer = document.getElementById('blueCheer');
 
-    //const movementDistance = 0.5;
-    const movementDistance = 1.5;
+    const movementDistance = 0.5;
 
     let competitorsPosition = 57;
 
