@@ -30,7 +30,7 @@ wss.on('connection', (ws) => {
     });
 
 });
-console.log('test');
+
 server.listen(3000, () => {
   console.log('Servidor WebSocket iniciado na porta 3000.');
 });
