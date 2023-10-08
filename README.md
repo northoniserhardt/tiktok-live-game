@@ -32,3 +32,36 @@ But don't worry; they are excellent swimmers. Upon winning, the character will c
 ## Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: {{link dev.to}}
 
 ---
+
+# Jogo TikTok live - Cabo de Guerra
+
+{{imagem do projeto}}
+
+O projeto consiste em um jogo desenvolvido usando JavaScript onde os viewers podem interagir ingressando no time vermelho ou azul e concedendo força ao time para vencer.
+Um agradecimento especial a [@BrunaUmgelter](https://www.linkedin.com/in/brunamgelteruxuidesign/) pelo incrível trabalho nas artes do jogo.
+
+## Instalação
+
+Clone o projeto:
+- `git clone https://github.com/northoniserhardt/tiktok-live-game.git`
+
+Navigate to the project directory:
+- `cd tiktok-live-game`
+
+Install dependencies:
+- `npm install`
+
+Copy the `.env.example` file to `.env`:
+- `cp .env.example .env`
+
+Start the development server:
+- `node server.js`
+
+Start the front and thats it.
+
+## Gameplay Mechanics
+Our game will feature 2 teams, red and blue, represented by 2 characters. Players will join these teams, and their likes will be converted into strength for their team every turn (1 second). The team with more strength will make our character pull the other toward a big drop into a small pool.
+
+But don't worry; they are excellent swimmers. Upon winning, the character will celebrate with their respective grandstand.
+
+## Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: {{link dev.to}}
