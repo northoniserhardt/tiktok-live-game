@@ -7,10 +7,12 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
+require('dotenv').config();
+
 wss.on('connection', (ws) => {
   console.log('Jogo ouvindo o websocket.');
 
-    tiktokLiveConnection = new WebcastPushConnection("@XXXXXXXXXXX");
+    tiktokLiveConnection = new WebcastPushConnection(process.env.TIKTOK_USERNAME);
     tiktokLiveConnection.connect().then(state => {
       console.info(`Escutando dados da live: ${state.roomId}`);
     }).catch(err => {
