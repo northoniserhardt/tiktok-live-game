@@ -1,6 +1,6 @@
 # TikTok live game - Tug of War
 
-![Mush the Mushroom](https://github.com/northoniserhardt/mush-the-mushroom/assets/32493494/ae505b57-5f2a-4b6f-bd13-baf78ce0b0e6)
+{{imagem do projeto}}
 
 The project consists of a game developed using JavaScript that viewers can interact with by joining the blue or red team and buffing their team's strength to win the game.
 
@@ -28,4 +28,5 @@ Our game will feature 2 teams, red and blue, represented by 2 characters. Player
 
 But don't worry; they are excellent swimmers. Upon winning, the character will celebrate with their respective grandstand.
 
+Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: {{link dev.to}}
 ---
