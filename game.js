@@ -63,12 +63,12 @@ document.addEventListener("DOMContentLoaded", function() {
             clearInterval(loopPull);
             replaceImage(pool, '/src/assets/redCompetitor/redFalling.gif', 130, 100);
             replaceImage(competitors, '/src/assets/blueCompetitor/blueWon.png', 90, 90, '380px');
-            replaceImage(blueCheer, '/src/assets/blueCompetitor/blueCheerWon.gif', 810, 90, '0%', '-1%');
+            replaceImage(blueCheer, '/src/assets/blueCompetitor/blueCheerWon.gif', 810, 90, '', '-1%');
         } else if (competitorsObject.bottom >= redWInBoxObject.top) {
             clearInterval(loopPull);
             replaceImage(pool, '/src/assets/blueCompetitor/blueFalling.gif', 130, 100);
             replaceImage(competitors, '/src/assets/redCompetitor/redWon.png', 90, 90, '650px');
-            replaceImage(redCheer, '/src/assets/redCompetitor/redCheerWon.gif', 810, 90, '0%', '-1%');
+            replaceImage(redCheer, '/src/assets/redCompetitor/redCheerWon.gif', 810, 90, '', '-1%');
         }
     }
     
