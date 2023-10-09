@@ -29,7 +29,7 @@ Our game will feature 2 teams, red and blue, represented by 2 characters. Player
 
 But don't worry; they are excellent swimmers. Upon winning, the character will celebrate with their respective grandstand.
 
-## Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: {{link dev.to}}
+## Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: [dev.to/tiktok-live-game](https://dev.to/northoniserhardt/building-an-interactive-tiktok-live-game-with-js-2g1m)
 
 ---
 
@@ -64,4 +64,4 @@ Nosso jogo contará com 2 times, o vermelho e o azul, representados por 2 person
 
 Mas não se preocupe eles são excelentes nadadores, ao vencer o personagem comemorará juntamente com a sua torcida.
 
-## Aqui você pode encontrar um artigo com mais informações interessantes a respeito do projeto, incluindo um video demonstrando como funciona:  {{link dev.to}}
+## Aqui você pode encontrar um artigo com mais informações interessantes a respeito do projeto, incluindo um video demonstrando como funciona: [dev.to/tiktok-live-game](https://dev.to/northoniserhardt/building-an-interactive-tiktok-live-game-with-js-2g1m)
