@@ -1,6 +1,6 @@
 # TikTok live game - Tug of War
 
-{{imagem do projeto}}
+![Tug of War](https://github.com/northoniserhardt/tiktok-live-game/assets/32493494/ceced72e-9b1a-4792-bce3-a423f3c0ec8d)
 
 The project consists of a game developed using JavaScript that viewers can interact with by joining the blue or red team and buffing their team's strength to win the game.
 My heartfelt thanks in advance to [@BrunaUmgelter](https://www.linkedin.com/in/brunamgelteruxuidesign/) for her incredible work on the game's artwork.
@@ -35,7 +35,7 @@ But don't worry; they are excellent swimmers. Upon winning, the character will c
 
 # TikTok live game - Cabo de Guerra
 
-{{imagem do projeto}}
+![Tug of War](https://github.com/northoniserhardt/tiktok-live-game/assets/32493494/ceced72e-9b1a-4792-bce3-a423f3c0ec8d)
 
 O projeto consiste em um jogo desenvolvido usando JavaScript onde os viewers podem interagir ingressando no time vermelho ou azul e concedendo força ao time para vencer.
 Um agradecimento especial a [@BrunaUmgelter](https://www.linkedin.com/in/brunamgelteruxuidesign/) pelo incrível trabalho nas artes do jogo.
