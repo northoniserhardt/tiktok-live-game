@@ -33,7 +33,7 @@ But don't worry; they are excellent swimmers. Upon winning, the character will c
 
 ---
 
-# Jogo TikTok live - Cabo de Guerra
+# TikTok live game - Cabo de Guerra
 
 {{imagem do projeto}}
 
@@ -45,23 +45,23 @@ Um agradecimento especial a [@BrunaUmgelter](https://www.linkedin.com/in/brunamg
 Clone o projeto:
 - `git clone https://github.com/northoniserhardt/tiktok-live-game.git`
 
-Navigate to the project directory:
+Navegue até o diretório do projeto:
 - `cd tiktok-live-game`
 
-Install dependencies:
+Instale as dependências:
 - `npm install`
 
-Copy the `.env.example` file to `.env`:
+Renomeie o arquivo `.env.example` para `.env`:
 - `cp .env.example .env`
 
-Start the development server:
+Inicie o servidor:
 - `node server.js`
 
-Start the front and thats it.
+Inicie o front do jogo e está pronto.
 
 ## Gameplay Mechanics
-Our game will feature 2 teams, red and blue, represented by 2 characters. Players will join these teams, and their likes will be converted into strength for their team every turn (1 second). The team with more strength will make our character pull the other toward a big drop into a small pool.
+Nosso jogo contará com 2 times, o vermelho e o azul, representados por 2 personagens. Os jogadores entrarão nos times e seus likes serão convertidos em força para o seu time a cada turno (1 segundo), o time com mais força fará com que nosso personagem puxe um pouco o outro em direção a uma grande queda em uma pequena piscina. 
 
-But don't worry; they are excellent swimmers. Upon winning, the character will celebrate with their respective grandstand.
+Mas não se preocupe eles são excelentes nadadores, ao vencer o personagem comemorará juntamente com a sua torcida.
 
-## Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: {{link dev.to}}
+## Aqui você pode encontrar um artigo com mais informações interessantes a respeito do projeto, incluindo um video demonstrando como funciona:  {{link dev.to}}
