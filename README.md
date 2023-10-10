@@ -29,6 +29,8 @@ Our game will feature 2 teams, red and blue, represented by 2 characters. Player
 
 But don't worry; they are excellent swimmers. Upon winning, the character will celebrate with their respective grandstand.
 
+Once connected to a live you must comment '#1' to join blue team or '#2' to join red team.
+
 ## Here you can find an article that provides more interesting information about the project, including a video demonstrating how it works: [dev.to/tiktok-live-game](https://dev.to/northoniserhardt/building-an-interactive-tiktok-live-game-with-js-2g1m)
 
 ---
@@ -63,5 +65,7 @@ Inicie o front do jogo e está pronto.
 Nosso jogo contará com 2 times, o vermelho e o azul, representados por 2 personagens. Os jogadores entrarão nos times e seus likes serão convertidos em força para o seu time a cada turno (1 segundo), o time com mais força fará com que nosso personagem puxe um pouco o outro em direção a uma grande queda em uma pequena piscina. 
 
 Mas não se preocupe eles são excelentes nadadores, ao vencer o personagem comemorará juntamente com a sua torcida.
+
+Uma vez conectado em uma live você precisa comentar '#1' para entrar no tiime azul ou '#2' para entrar no time vermelho.
 
 ## Aqui você pode encontrar um artigo com mais informações interessantes a respeito do projeto, incluindo um video demonstrando como funciona: [dev.to/tiktok-live-game](https://dev.to/northoniserhardt/building-an-interactive-tiktok-live-game-with-js-2g1m)
