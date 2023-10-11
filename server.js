@@ -7,6 +7,8 @@ const app = express();
 const path = require('path');
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
+require('dotenv').config();
+
 
 const port = 8000;
 
@@ -16,10 +18,11 @@ app.listen(port, () => {
   console.log(`Servidor está rodando em http://localhost:${port}`);
 });
 
+
 wss.on('connection', (ws) => {
   console.log('Jogo ouvindo o websocket.');
 
-    tiktokLiveConnection = new WebcastPushConnection("@XXXXXXXXXXX");
+    tiktokLiveConnection = new WebcastPushConnection(process.env.TIKTOK_USERNAME);
     tiktokLiveConnection.connect().then(state => {
       console.info(`Escutando dados da live: ${state.roomId}`);
     }).catch(err => {
