@@ -22,6 +22,8 @@ Copy the `.env.example` file to `.env`:
 Start the development server:
 - `npm start`
 
+**Remember to insert the tiktok live id in .env**
+
 Now just open in your browser: http://localhost:8000
 
 ## Gameplay Mechanics
@@ -58,6 +60,8 @@ Renomeie o arquivo `.env.example` para `.env`:
 
 Inicie o servidor:
 - `npm start`
+
+**Lembre de inserir o id da live no .env**
 
 Agora basta abrir no seu navegador: http://localhost:8000
 
