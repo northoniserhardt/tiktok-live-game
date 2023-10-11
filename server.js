@@ -7,8 +7,8 @@ const app = express();
 const path = require('path');
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
-require('dotenv').config();
 
+require('dotenv').config();
 
 const port = 8000;
 
