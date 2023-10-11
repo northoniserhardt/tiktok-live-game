@@ -20,9 +20,7 @@ Copy the `.env.example` file to `.env`:
 - `cp .env.example .env`
 
 Start the development server:
-- `node server.js`
-
-Start the front and thats it.
+- `npm start`
 
 ## Gameplay Mechanics
 Our game will feature 2 teams, red and blue, represented by 2 characters. Players will join these teams, and their likes will be converted into strength for their team every turn (1 second). The team with more strength will make our character pull the other toward a big drop into a small pool.
@@ -57,9 +55,7 @@ Renomeie o arquivo `.env.example` para `.env`:
 - `cp .env.example .env`
 
 Inicie o servidor:
-- `node server.js`
-
-Inicie o front do jogo e está pronto.
+- `npm start`
 
 ## Gameplay Mechanics
 Nosso jogo contará com 2 times, o vermelho e o azul, representados por 2 personagens. Os jogadores entrarão nos times e seus likes serão convertidos em força para o seu time a cada turno (1 segundo), o time com mais força fará com que nosso personagem puxe um pouco o outro em direção a uma grande queda em uma pequena piscina. 
