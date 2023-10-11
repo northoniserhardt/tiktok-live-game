@@ -4,8 +4,17 @@ const WebSocket = require('ws');
 const { WebcastPushConnection } = require('tiktok-live-connector');
 
 const app = express();
+const path = require('path');
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
+
+const port = 8000;
+
+app.use(express.static(path.join(__dirname + '/src')));
+
+app.listen(port, () => {
+  console.log(`Servidor está rodando em http://localhost:${port}`);
+});
 
 wss.on('connection', (ws) => {
   console.log('Jogo ouvindo o websocket.');
@@ -28,7 +37,7 @@ wss.on('connection', (ws) => {
     });
 
 });
-console.log('test');
+
 server.listen(3000, () => {
   console.log('Servidor WebSocket iniciado na porta 3000.');
 });
