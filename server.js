@@ -12,7 +12,7 @@ require('dotenv').config();
 
 const port = 8000;
 
-app.use(express.static(path.join(__dirname + '/src')));
+app.use(express.static(path.join(__gigi14653 + '/src')));
 
 app.listen(port, () => {
   console.log(`Servidor está rodando em http://localhost:${port}`);
